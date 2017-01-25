@@ -1,0 +1,248 @@
+{
+  "pages": [
+    {
+      "title": "Shembuj",
+      "questions": [
+        {
+          "type": "single-answer",
+          "statement": "Sa kembe ka insekti ne foto?",
+          "description": "Single choice pergjigje.",
+          "graded": true,
+          "points": 6,
+          "penaltyPoints": -1,
+          "choicesType": "radio",
+          "choices": [
+            "8",
+            "6",
+            "4",
+            "10"
+          ],
+          "solution": 0,
+          "imagePosition": "right",
+          "asideImage": "http://cdn.rentokil.com/content/global/images/desktop/main_black-house-spider-badumna-insignis.jpg"
+        },
+        {
+          "type": "single-answer",
+          "statement": "What do you call a scientist that studies life?",
+          "description": "Single choice shembull.",
+          "graded": true,
+          "points": 6,
+          "penaltyPoints": -1,
+          "choicesType": "button",
+          "choices": [
+            "Geologist",
+            "Physicist",
+            "Chemist",
+            "Biologist"
+          ],
+          "itemsWidth": 50,
+          "itemSeparation": true,
+          "solution": 3
+        },
+        {
+          "type": "single-answer",
+          "statement": "Cila eshte gjirafa?",
+          "description": "Single choice me foto.",
+          "graded": true,
+          "points": 6,
+          "penaltyPoints": -1,
+          "choicesType": "button",
+          "choices": [
+            "http://static.videogular.com/quickquiz/panda.jpg",
+            "http://static.videogular.com/quickquiz/jaguar.jpg",
+            "http://static.videogular.com/quickquiz/giraffe.jpg",
+            "http://static.videogular.com/quickquiz/gorilla.jpg"
+          ],
+          "itemsWidth": 50,
+          "itemSeparation": true,
+          "images": true,
+          "solution": 2
+        },
+        {
+          "type": "single-answer",
+          "statement": "What is the human body’s biggest organ?",
+          "description": "Single pergjigje me dropdown.",
+          "graded": true,
+          "points": 8,
+          "penaltyPoints": -1,
+          "choicesType": "select",
+          "choices": [
+            "The brain",
+            "The skin",
+            "The liver",
+            "The lungs",
+            "The heart"
+          ],
+          "placeholder": "Select",
+          "solution": 1
+        }
+      ]
+    },
+    {
+      "title": "Gjeo Testi",
+      "questions": [
+        {
+          "type": "multiple-answers",
+          "statement": "Metalet kryesore ne koren e tokes?",
+          "description": "Multiple choice me foto ne background.",
+          "graded": true,
+          "points": 8,
+          "penaltyPoints": -1,
+          "choicesType": "button",
+          "choices": [
+            "Hekuri",
+            "Argjendi",
+            "Bakri",
+            "Nikeli"
+          ],
+          "solution": [
+            0,
+            3
+          ],
+          "itemsWidth": 50,
+          "itemSeparation": true,
+          "minHeight": 300,
+          "bgImg": "http://static.videogular.com/quickquiz/iron.jpg",
+          "semitransparent": true
+        },
+        {
+          "type": "multiple-answers",
+          "statement": "Name the three time periods of the dinosaurs.",
+          "description": "Multiple pergjigje me checkbox edhe me foto anash.",
+          "graded": true,
+          "points": 8,
+          "penaltyPoints": -1,
+          "choicesType": "checkbox",
+          "choices": [
+            "Cretaceous",
+            "Triassic",
+            "Paleogene",
+            "Jurassic",
+            "Permian"
+          ],
+          "solution": [
+            0,
+            1,
+            3
+          ],
+          "imagePosition": "right",
+          "asideImage": "http://static.videogular.com/quickquiz/dinosaur.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Modi per matrix",
+      "questions": [
+        {
+          "type": "matrix",
+          "statement": "Vendos true apo false.",
+          "description": "Matrix lloji i pyetjes.",
+          "graded": true,
+          "points": 30,
+          "penaltyPoints": -5,
+          "choicesType": "radio",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "rows": [
+            "The Atlantic Ocean is the biggest ocean on Earth.",
+            "Sharks are mammals.",
+            "Filtration separates mixtures based upon their particle size.",
+            "Conductors have low resistance.",
+            "The human skeleton is made up of less than 100 bones."
+          ],
+          "solution": [
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "random": true
+        }
+      ]
+    },
+    {
+      "title": "Gjeo testi",
+      "questions": [
+        {
+          "type": "matching-pairs",
+          "statement": "Match each moon with its planet",
+          "description": "Asocim.",
+          "graded": true,
+          "points": 10,
+          "penaltyPoints": -1,
+          "choicesType": "button",
+          "choicesLeft": [
+            "Europa",
+            "Titan",
+            "Deimos",
+            "Triton"
+          ],
+          "choicesRight": [
+            "Mars",
+            "Jupiter",
+            "Neptune",
+            "Saturn"
+          ],
+          "borderColor": true,
+          "solution": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "itemsWidth": 50,
+          "itemSeparation": true
+        },
+        {
+          "type": "short-answer",
+          "statement": "What is the name of our galaxy?",
+          "description": "Short.",
+          "graded": true,
+          "points": 8,
+          "penaltyPoints": -1,
+          "solution": [
+            "The Milky Way Galaxy",
+            "Milky Way",
+            "Milky Way Galaxy",
+            "Milkyway",
+            "The Milky Way"
+          ],
+          "placeholder": "Shkruani pergjigjen"
+        },
+        {
+          "type": "sequence",
+          "statement": "Rradhit planetet prej diellit",
+          "description": "Modi i pyetjes per order",
+          "graded": true,
+          "points": 10,
+          "penaltyPoints": -1,
+          "choicesType": "select",
+          "choices": [
+            "Venus",
+            "Jupiter",
+            "Neptune",
+            "Earth",
+            "Saturn",
+            "Uranus",
+            "Mercury",
+            "Mars"
+          ],
+          "solution": [
+            6,
+            0,
+            3,
+            7,
+            1,
+            4,
+            5,
+            2
+          ],
+          "placeholder": "Select a planet"
+        }
+      ]
+    }
+  ]
+}

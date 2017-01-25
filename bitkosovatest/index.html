@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Bit Kosova</title>
+    <meta name="description" content="E-Testing per Bit Kosova" />
+
+    <link href="css/import/angular-material.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/import/videogular.min.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="css/icons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="css/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="css/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="css/icons/apple-touch-icon-114x114.png">
+
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,400italic&subset=latin,greek,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic'
+          rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="initial-scale=1"/>
+
+
+    <!-- Go to https://cards-dev.twitter.com/validator to test your twitter card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ilovemedia_es">
+    <meta name="twitter:title" content="QuickQuiz">
+    <meta name="twitter:description" content="Create your own quizzes!">
+
+    <meta name="twitter:image" content="https://image-cc.s3.envato.com/files/157944534/previewImage.jpg">
+
+
+    <meta property="og:title" content="Your page title" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://quickquiz.ws" />
+    <meta property="og:image" content="https://image-cc.s3.envato.com/files/157944534/previewImage.jpg" />
+    <meta property="og:description" content="Create your own quizzes!" />
+
+</head>
+
+<body>
+
+<div id="quickquiz" ng-app="quickquiz" class="md-body-1">
+    <md-content layout-padding
+                ng-class="quizConfig.settings.pageAnimation"
+                autoscroll="true"
+                ng-view>
+    </md-content>
+</div>
+
+<script type="text/javascript" src="js/libs.min.js"></script>
+<script type="text/javascript" src="js/quickquiz.js"></script>
+
+</body>
+
+</html>
+
